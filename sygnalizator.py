@@ -27,9 +27,8 @@ class Sygnalizator():
 swiatlo = Sygnalizator()
 
 while True:
-    print("Podaj liczbe: 1 - zielone, 2 - pomaranczowe, 3 - czerwone ")
+    print("Podaj liczbe: 1 - zielone, 2 - pomaranczowe, 3 - czerwone, 4 - statystyka")
 
-    x = input()             # pobranie liczby jako string
-    x = int(x)              # zmiana liczby ze string na int
+    x = int(input())             # pobranie liczby jako string
 
     swiatlo.zapal(x)
